@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<h1>What's up!</h1>
+<img class="my-photo" src="{% static 'media/me.JPG' %}"/>
+<p>My name is Alexis and I like to develope websites</p>
+{% endblock content %}
